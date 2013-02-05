@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class='container'>
+        <hr/>
+        <div class="alert alert-success">
+            <strong>Congratulations!</strong> You have now officially started your Django project.
+        </div>
+
+        <form>
+            <fieldset>
+                <legend>Programe uma pesquisa nos Diarios Oficiais, e seja informado quando ocorrer novos resultados
+                </legend>
+                <label>
+                    <input type="text" placeholder="Type something…">
+                </label>
+                <span class="help-block">Example block-level help text here.</span>
+                <button type="submit" class="btn">Submit</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+    <table class="table table-hover table-bordered table-striped">
+        <caption><h3>Resultado Pesquisa</h3></caption>
+        <thead>
+        <tr>
+            <th>Edição</th>
+            <th>Data</th>
+            <th>Suplemento</th>
+            <th>Páginas</th>
+            <th>Tamanho</th>
+            <th>Downloads</th>
+            <th>Link para Download</th>
+            <th>Link para Pesquisa</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+{% endblock %}
